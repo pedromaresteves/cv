@@ -1,0 +1,90 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+
+}
+
+h1{
+  color:rgb(128, 168, 198);
+}
+
+nav{
+  background-color: rgb(245, 245, 245);
+  font-weight: lighter;
+  border-bottom:solid 1px rgb(128, 168, 198);
+}
+
+nav .title-name{
+  display: inline-block;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+footer{
+  background-color: rgb(245, 245, 245);
+  border-top:solid 1px rgb(128, 168, 198);
+}
+
+.full-color-border{
+  border:solid 1px rgb(128, 168, 198);
+  border-radius: 5%;
+}
+
+.intro{
+  background-color: rgb(214, 211, 247);
+  font-size: 1.1em;
+}
+
+
+.section-titles{
+  font-size: 1.7em;
+  color:rgb(128, 168, 198);
+}
+
+.horizontal-list{
+  list-style: none;
+}
+
+.horizontal-list li {
+  display: inline;
+}
+
+/* WORK EXPERIENCE  */
+.work-exp{
+  border:solid 1px rgb(128, 168, 198);
+  color:rgb(69, 69, 69);
+}
+
+.work-exp:nth-child(even){
+  background-color: rgb(214, 211, 247);
+}
+
+.text-decor{
+  text-decoration: underline;
+}
+
+/* Skills  */
+
+.it-skills li {
+    background: rgb(111, 161, 199);
+    padding-left:4px;
+    padding-right:4px;
+    line-height: 180%;
+    list-style-type: none;
+    margin:2px;
+    border-radius: 5%;
+    color:white;
+}
+
+/* ProgressBars */
+
+.lang{
+  font-size:1.3em;
+}
+
+/* Footer social media */
+.social-media{
+  color:rgb(111, 161, 199);
+  padding:5px;
+  border-radius: 5%;
+}
